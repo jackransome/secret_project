@@ -6,22 +6,7 @@ var sizeY = 30;
 var locationX = 10;
 var locationY = 10;
 
-class MainCharacter {
-	constructor() {
-		this.x = 0;
-		this.y = 0;
-		this.health = 100;
-	}
-	move(x, y) {
-		this.x += x;
-		this.y += y;
-	}
-	draw(){
-		ctx.drawImage(img, this.x, this.y);
-	}
-}
-
-idiot = new MainCharacter();
+idiot = new Player();
 
 var img = new Image();
 img.src = "resources/amazing.jpeg";
