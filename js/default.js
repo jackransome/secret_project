@@ -6,8 +6,10 @@ var sizeY = 30;
 var locationX = 10;
 var locationY = 10;
 
+
+
 var img = new Image();
-img.src = "resources/test.png";
+img.src = "resources/amazing.jpeg";
   
 function loop() {
 	ctx.fillStyle = "rgba(255,255,255,1)";
@@ -35,5 +37,5 @@ function loop() {
 		locationX = locationX+5;
 	}
 	
-	ctx.drawImage(img, 10, 10);
+	ctx.drawImage(img, locationX, locationY);
 }
