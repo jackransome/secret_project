@@ -7,7 +7,7 @@ var locationX = 10;
 var locationY = 10;
 
 var img = new Image();
-img.src = "js/test.png";
+img.src = "resources/test.png";
   
 function loop() {
 	ctx.fillStyle = "rgba(255,255,255,1)";
