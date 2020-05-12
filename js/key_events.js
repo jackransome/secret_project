@@ -126,9 +126,7 @@ function onKeyUp(event) {
             break;
 
         case 32:
-
             keys.space = false;
-
             break;
 
         case 87:

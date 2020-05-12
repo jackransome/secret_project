@@ -1,0 +1,18 @@
+Code:
+	Classes for main player
+	Class for enemys:
+	Weapons classes
+	Projectiles class
+	Walls classes
+	collections classes:
+		Enemies
+		Walls
+		Projectiles
+	Expand and fix key_events
+	Camera movement
+Art:
+	Player classes
+	Enemy classes
+	Weapons
+	Enviroment:
+		Walls
